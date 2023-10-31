@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* base*/
+:root {
+    --primary-color: #8BCAC8;
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #323131;
+    --boder-color: #dbdbdb;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.logo-img{
+    width: 110px;
+    height: 105px;
+    float: left;
+   
+    left: 6%;
+    padding-top: 5px;
+}
+
+.bg-primary-qlk{
+  background-color: var(--primary-color);
+}
+.qlk_button{
+    width: 280px;
+    height: 100px;
+    background-color: #ccc ;
+    text-align: center;
+  }
